@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,x;
+    printf("enter the 1 number :");
+scanf("%d",&a);
+printf("enter the 2 number :");
+scanf("%d",&b);
+
+printf("enter 1 for addition \n enter 2 for subtraction \n enter 3 for product\n enter 4 for divison \n");
+printf("enter your choice");
+scanf("%d",&x);
+if(x==1)
+printf("addition is:%d",a+b);
+else if(x==2)
+printf("subtraction is:%d",a-b);
+else if(x==3)
+printf("product is:%d",a*b);
+else if(x==4)
+printf("divison is:%d",a/b);
+else
+printf("enter valid choice");
+    return 0;
+}
