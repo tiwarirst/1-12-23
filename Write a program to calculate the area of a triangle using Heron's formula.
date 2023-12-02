@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    int x,y,z,s,k,d,w;
+    printf("enter 1 side:");
+    scanf("%d",&x);
+     printf("enter 1 side:");
+     scanf("%d",&y);
+      printf("enter 1 side:");
+scanf("%d",&z);
+s=(x+y+z)/2;
+printf("semiperimeter of triangle is:%d\n",s);
+k=s-x;
+d=s-y;
+w=s-z;
+float area=sqrt(s*k*d*w);
+printf("area of triangle is:%f",area);
+    return 0;
+}
