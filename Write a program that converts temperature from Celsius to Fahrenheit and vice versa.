@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{int a,b,j;
+    printf("enter the temperature :");
+    scanf("%d",&a);
+    printf("enter 1 for celsius to fahrenheite \nenter 2 for fahrehiet to celsius\n");
+    printf("enter your choice:");
+    scanf("%d",&b);
+    float c=a*1.8+32;
+    j=a-32;
+    float d=j/1.8;
+    if(b==1)
+    printf("temperature is :%f",c);
+    else if(b==2)
+    printf("temperature is: %f",d);
+    else
+    printf("enter valid choice");
+
+    return 0;
+}
